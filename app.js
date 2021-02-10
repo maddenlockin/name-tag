@@ -11,6 +11,7 @@ changeButton.addEventListener('click', () => {
     pronounDisplay.textContent = pronounInput.value;
     //clear the input?
     nameInput.value = '';
+    pronounInput.value = '';
 });
 
 
